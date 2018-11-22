@@ -1,0 +1,46 @@
+/* Standard */
+
+.page-header-container {
+	padding: 0.5em 1.5em;
+	width: 100%;
+}
+
+.page-body-container {
+	display: flex;
+	width: 100%;
+}
+
+.page-content-container {
+	flex-grow: 1;
+}
+
+/* X-Small */
+@media (min-width: 375px) {
+
+}
+
+
+/* Small */
+@media (min-width: 667px) {
+
+}
+
+
+/* Medium */
+@media (min-width: 820px) {
+	.page-body-container {
+		justify-content: space-around;
+	}
+}
+
+
+/* Large */
+@media (min-width: 992px) {
+
+}
+
+
+/* X-Large */
+@media (min-width: 1125px) {
+
+}

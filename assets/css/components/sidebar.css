@@ -1,0 +1,38 @@
+/* Standard */
+
+.sidebar-container {
+	display: none;
+}
+
+/* X-Small */
+@media (min-width: 375px) {
+
+}
+
+
+/* Small */
+@media (min-width: 667px) {
+
+}
+
+
+/* Medium */
+@media (min-width: 820px) {
+	.sidebar-container {
+		display: flex;
+		flex-direction: column;
+		width: 27%;
+	}
+}
+
+
+/* Large */
+@media (min-width: 992px) {
+
+}
+
+
+/* X-Large */
+@media (min-width: 1125px) {
+
+}

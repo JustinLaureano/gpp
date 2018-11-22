@@ -1,0 +1,51 @@
+* {
+	/* outline: 1px solid red; */
+}
+
+/* Header Tags */
+
+h1 {
+
+}
+
+h3 {
+	color: #40AE46;
+}
+
+h4 {
+	font-size: 1em;
+	font-weight: 600;
+}
+
+h5 {
+	font-weight: 300;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 0.9em;
+    /* color: #b3b2b2; */
+    color: #898989;
+    margin-bottom: .2em;
+}
+
+h6:hover {
+	color: #D1D1D1;
+}
+
+header {
+	overflow-x: hidden;
+}
+
+.site {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: 'Open Sans', 'Helvetica', 'Sans Serif';
+	font-size: 1em;
+}
+
+/* A Link Interaction */
+.link-hover-green:hover {
+	color: #40AE46;
+}
